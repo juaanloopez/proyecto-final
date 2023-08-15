@@ -23,13 +23,18 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #fefefe;
-    padding: 15px;
+    /* padding: 15px; */
     border-bottom: 3px solid #007bc7;
     position: relative;
     z-index: 1;
-    height: 5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem
+    height: 7rem;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem */
+}
+
+.jorgelogo{
+    width: 9rem;
+    object-fit: cover;
 }
 
 @media (max-width:991px){
