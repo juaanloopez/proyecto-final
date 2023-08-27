@@ -64,3 +64,46 @@ body{
     object-fit: cover;
 }
 
+.categorias{
+    margin-top: 4rem;
+}
+
+.productos-categorias{
+    margin-top: 4rem;
+}
+
+.almacen img{
+    width: 200px;
+}
+
+.bebidas img{
+    margin-top: 1.5rem;
+    width: 250px;
+}
+
+.bebidas button{
+    margin-top: 0.4rem;
+}
+
+.frescos img{
+    margin-top: 0.5rem;
+    width: 300px;
+}
+
+.frescos button{
+    margin-top: 1rem;
+}
+
+.limpieza img{
+    margin-top: 0.5rem;
+    width: 270px;
+}
+
+.limpieza button{
+    margin-top: 1.1rem;
+}
+
+.productos-categorias a{
+    text-decoration: none;
+}
+
