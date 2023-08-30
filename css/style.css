@@ -100,8 +100,7 @@ body{
 }
 
 .frescos img{
-    margin-top: 0.5rem;
-    width: 300px;
+    width: 270px;
 }
 
 .frescos button{
@@ -128,3 +127,4 @@ body{
     text-decoration: none;
     font-weight: bold;
 }
+
