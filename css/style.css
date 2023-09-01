@@ -163,7 +163,7 @@
     padding-bottom: 5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-    gap: 1.5rem;
+    gap: 1rem;
     background: #eee;
 }
 
