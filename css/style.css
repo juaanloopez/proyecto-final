@@ -133,26 +133,84 @@
     font-weight: bold;
 }
 
-.home{
+.carrusel{
     padding-top: 10rem;
     text-align: center;
     overflow-x: hidden;
 }
 
-.home h1{
+.carrusel h1{
     font-size: 7.5vw;
     text-transform: uppercase;
     color: #130f40;
 }
 
-.home img{
+.carrusel img{
     width: 28%;
     margin: 1rem 0;
 }
 
 @media (max-width:991px){
-    .home{
+    .carrusel{
         padding-top: 15rem;
     }
+}
+
+.caracteristicas{
+    margin-top: 4rem;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1.5rem;
+    background: #eee;
+}
+
+.caracteristicas .iconos{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .5rem;
+}
+
+.caracteristicas .iconos svg{
+    height:3.1rem;
+    width: 3.1rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    background: #eee;
+    color: #130f40;
+    text-align: center;
+}
+
+.caracteristicas .iconos .texto-iconos h3{
+    color: #f9d806;
+    font-size: 2.5rem;
+}
+
+.caracteristicas .iconos .texto-iconos p{
+    color: #666;
+    font-size: 1rem;
+}
+
+.caracteristicas .iconos:hover{
+    background: #130f40;
+}
+
+.caracteristicas .iconos:hover svg{
+    background: #f9d806;
+}
+
+.caracteristicas .iconos:hover .texto-iconos h3{
+    color: #fff;
+}
+
+.caracteristicas .iconos:hover .texto-iconos p{
+    color: #eee;
 }
 
