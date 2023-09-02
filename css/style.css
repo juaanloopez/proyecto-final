@@ -77,6 +77,76 @@
     margin-top: 8rem;
 }
 
+@media (max-width:991px){
+    .categorias .almacen img{
+        width: 120px;
+        margin-top: 1.5rem;
+    }
+
+    .categorias .almacen .boton-almacen{
+        margin-top: 1.6rem;
+    }
+
+    .categorias .bebidas img{
+        width: 150px;
+        margin-top: 2.5rem;
+    }
+    
+    .categorias .bebidas .boton-bebidas{
+        /* margin-top: 0.8rem; */
+        margin-bottom: 1rem;
+    }
+
+    .categorias .frescos img{
+        width: 150px;
+    }
+
+    .categorias .frescos .boton-productosfrescos{
+        margin-top: 0.1rem;
+    }
+
+    .categorias .limpieza img{
+        width: 145px;
+        margin-top: 2.3rem;
+    }
+    
+    .categorias .limpieza .boton-limpieza{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:575px){
+    .categorias .almacen img{
+        width: 220px;
+    }
+    
+    .categorias .bebidas img{
+        margin-top: 1.6rem;
+        width: 250px;
+    }
+    
+    .categorias .bebidas button{
+        margin-top: 1.8rem;
+    }
+    
+    .categorias .frescos img{
+        width: 270px;
+    }
+    
+    .categorias .frescos button{
+        margin-top: 2.4rem;
+    }
+    
+    .categorias .limpieza img{
+        margin-top: 0.5rem;
+        width: 270px;
+    }
+    
+    .categorias .limpieza button{
+        margin-top: 2.6rem;
+    }
+}
+
 .categorias h1{
     color: #130f40;
     font-weight: bold;
