@@ -60,17 +60,115 @@
     color: #f9d806;
 }
 
-.slide{
-    margin-top: 7rem;
+.carrusel{
+    padding-top: 10rem;
+    text-align: center;
+    overflow-x: hidden;
 }
 
-.d-item{
-    width: 100%;
+.carrusel h1{
+    font-size: 7.5vw;
+    text-transform: uppercase;
+    color: #130f40;
 }
 
-.d-img{
-    height: 700px;
-    object-fit: cover;
+.carrusel img{
+    width: 28%;
+    margin: 1rem 0;
+}
+
+@media (max-width:991px){
+    .carrusel{
+        padding-top: 15rem;
+    }
+}
+
+.caracteristicas{
+    margin-top: 4rem;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 1rem;
+    background: #eee;
+}
+
+@media (max-width:1280px){
+    .caracteristicas{
+        margin-top: 5rem;
+        align-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: block;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+        gap: 1rem;
+        background: #eee;
+    }
+}
+
+@media (max-width:943px){
+    .caracteristicas{
+        margin-top: 5rem;
+        align-items: center;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+        gap: 1rem;
+        background: #eee;
+    }
+}
+
+.caracteristicas .iconos{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .5rem;
+}
+
+.caracteristicas .iconos img{
+    width: 50px;
+}
+
+.caracteristicas .iconos i{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    background: #eee;
+    color: #130f40;
+    text-align: center;
+}
+
+.caracteristicas .iconos .texto-iconos h3{
+    color: #f9d806;
+    font-size: 2.5rem;
+}
+
+.caracteristicas .iconos .texto-iconos p{
+    color: #666;
+    font-size: 1rem;
+}
+
+.caracteristicas .iconos:hover{
+    background: #130f40;
+}
+
+.caracteristicas .iconos:hover i{
+    background: #f9d806;
+}
+
+.caracteristicas .iconos:hover .texto-iconos h3{
+    color: #fff;
+}
+
+.caracteristicas .iconos:hover .texto-iconos p{
+    color: #eee;
 }
 
 .categorias{
@@ -203,84 +301,75 @@
     font-weight: bold;
 }
 
-.carrusel{
-    padding-top: 10rem;
+.ofertasdeldia{
+    margin-top: 8rem;
+}
+
+.ofertasdeldia h1{
     text-align: center;
-    overflow-x: hidden;
-}
-
-.carrusel h1{
-    font-size: 7.5vw;
-    text-transform: uppercase;
     color: #130f40;
+    font-weight: bold;
 }
 
-.carrusel img{
-    width: 28%;
-    margin: 1rem 0;
-}
-
-@media (max-width:991px){
-    .carrusel{
-        padding-top: 15rem;
-    }
-}
-
-.caracteristicas{
-    margin-top: 4rem;
-    align-items: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+.ofertasdeldia .contenedor-ofertasdeldia{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-    gap: 1rem;
-    background: #eee;
-}
-
-.caracteristicas .iconos{
-    display: flex;
-    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
-    padding: 2rem;
-    background: #fff;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: .5rem;
+    margin-top: 3rem;
 }
 
-.caracteristicas .iconos svg{
-    height:3.1rem;
-    width: 3.1rem;
-    line-height: 5rem;
-    font-size: 2.5rem;
-    border-radius: 50%;
-    background: #eee;
-    color: #130f40;
+.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia{
     text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.caracteristicas .iconos .texto-iconos h3{
-    color: #f9d806;
-    font-size: 2.5rem;
+#nescafeimg{
+    width: 200px;
 }
 
-.caracteristicas .iconos .texto-iconos p{
+#nesquikimg{
+    width: 160px;
+    margin-top: 2.5rem;
+}
+
+#quesofinlandiaimg{
+    width: 200px;
+}
+
+#milanesadesojaimg{
+    width: 157px;
+}
+
+#tonaditaimg{
+    width: 290px;
+}
+
+#jugoclightimg{
+    width: 200px;
+}
+
+.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia h3{
+    color: #130f40;
+    font-size: 2.2rem;
+}
+
+.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia p{
     color: #666;
-    font-size: 1rem;
+    font-size: 1.4rem;
+    /* padding: 1rem 0; */
+    /* line-height: 1.8; */
 }
 
-.caracteristicas .iconos:hover{
-    background: #130f40;
+.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia h4{
+    color: #130f40;
+    font-weight: bold;
 }
 
-.caracteristicas .iconos:hover svg{
-    background: #f9d806;
-}
-
-.caracteristicas .iconos:hover .texto-iconos h3{
-    color: #fff;
-}
-
-.caracteristicas .iconos:hover .texto-iconos p{
-    color: #eee;
+.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia span{
+    color: #f9d806;
+    font-weight: bold;
 }
 
