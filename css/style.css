@@ -301,24 +301,24 @@
     font-weight: bold;
 }
 
-.ofertasdeldia{
+.ofertasdeldia-preciosjusto{
     margin-top: 8rem;
 }
 
-.ofertasdeldia h1{
+.ofertasdeldia-preciosjusto h1{
     text-align: center;
     color: #130f40;
     font-weight: bold;
 }
 
-.ofertasdeldia .contenedor-ofertasdeldia{
+.ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
     margin-top: 3rem;
 }
 
-.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia{
+.ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto{
     text-align: center;
     padding: 2rem;
     border-radius: .5rem;
@@ -326,17 +326,13 @@
     border: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#nescafeimg{
+.card-ofertasdeldia-preciosjusto img{
     width: 200px;
 }
 
 #nesquikimg{
     width: 160px;
     margin-top: 2.5rem;
-}
-
-#quesofinlandiaimg{
-    width: 200px;
 }
 
 #milanesadesojaimg{
@@ -347,28 +343,28 @@
     width: 290px;
 }
 
-#jugoclightimg{
-    width: 200px;
+#azucarimg{
+    width: 206px;
 }
 
-.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia h3{
+.ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto h3{
     color: #130f40;
     font-size: 2.2rem;
 }
 
-.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia p{
+.ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto p{
     color: #666;
     font-size: 1.4rem;
     /* padding: 1rem 0; */
     /* line-height: 1.8; */
 }
 
-.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia h4{
+.ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto h4{
     color: #130f40;
     font-weight: bold;
 }
 
-.ofertasdeldia .contenedor-ofertasdeldia .card-ofertasdeldia span{
+.ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto span{
     color: #f9d806;
     font-weight: bold;
 }
