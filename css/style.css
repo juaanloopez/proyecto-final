@@ -39,8 +39,13 @@
     }
 }
 
-.items-derecha{
-    text-align: right;
+.items-barranav{
+    text-align: center;
+    margin: auto;
+}
+
+.items-barranav a{
+    margin: 2rem;
 }
 
 #inicio{
@@ -330,6 +335,11 @@
     width: 200px;
 }
 
+.card-ofertasdeldia-preciosjusto:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 #nesquikimg{
     width: 160px;
     margin-top: 2.5rem;
@@ -367,5 +377,167 @@
 .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto span{
     color: #f9d806;
     font-weight: bold;
+}
+
+#contacto{
+    background-color: #eee;
+    margin-top: 10rem;
+    border-top: 3px solid #f9d806;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+    color: #130f40;
+}
+
+.titulo h5{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.titulo h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+label{
+    font-weight: bold;
+}
+
+.formulario-registro{
+    width: 55%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    color: #130f40;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.controles{
+    width: 100%;
+    color: #fff;
+    background: #130f40;
+    padding: 0.5em 1em;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    border: 1px solid #f9d806;
+    font-size: 18px;
+    resize: none;
+    font-family: 'Instrument Sans', sans-serif;
+}
+
+.controles:focus{
+    border: 3px solid #f9d806;
+}
+
+.boton-derecha{
+    text-align: right;
+}
+
+.boton-derecha input{
+    font-weight: bold;
+}
+
+.boton{
+    background-color: #f9d806;
+    border-color: #f9d806;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    padding: 0.4em 1.9em;
+    line-height: 1.5;
+    color: #130f40;
+    margin: 16px 0;
+    /* font-family: 'Noto Serif', serif; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.col-6{
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+}
+
+.form-izquierda{
+    text-align: left;
+}
+
+footer{
+    background: #ffee80;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: #130f40;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.footer-contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 1px solid #130f40;
+}
+
+.footer-contenido h3{
+    font-weight: bold;
+}
+
+.footer-contenido h4{
+    font-weight: bold;
+}
+
+.footer-contenido h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    /* font-family: 'Konkhmer Sleokchher', cursive; */
+}
+
+.footer-contenido h4{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    /* font-family: 'Noto Serif', serif; */
+}
+
+.redessociales{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.redessociales li{
+    margin: 0 10px;
+    width: 3rem;
+}
+
+.redessociales a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.redessociales a:hover{
+    color: #130f40;
+}
+
+.footer-boton{
+    background: #ffee80;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    /* font-family: 'Noto Serif', serif; */
+}
+
+.footer-boton{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
 
