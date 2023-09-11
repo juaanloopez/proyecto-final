@@ -80,6 +80,11 @@
     overflow-x: hidden;
 }
 
+.modooscuro-izquierda{
+    text-align: left;
+    margin-left: 3rem;
+}
+
 .carrusel h1{
     font-size: 7.5vw;
     text-transform: uppercase;
@@ -170,7 +175,7 @@
 
 .caracteristicas .iconos .texto-iconos p{
     color: #666;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .caracteristicas .iconos:hover{
@@ -528,16 +533,16 @@ footer{
 
 .redessociales li{
     margin: 0 10px;
-    width: 3rem;
+    width: 5rem;
 }
 
 .redessociales a{
     text-decoration: none;
-    color: #ccc;
 }
 
-.redessociales a:hover{
-    color: #130f40;
+.redessociales img{
+    margin-top: 20px;
+    width: 30px;
 }
 
 .footer-boton{
@@ -552,3 +557,69 @@ footer{
     /* font-family: 'Noto Serif', serif; */
 }
 
+.modo_oscuro{
+    background-color: #130f40;
+}
+
+.modo_oscuro nav{
+    background-color: #130f40;
+    color: #f9d806;
+}
+
+.modo_oscuro #inicio{
+    color: #f9d806;
+}
+
+.modo_oscuro a{
+    color: #f9d806;
+}
+
+.modo_oscuro h1{
+    color: #f9d806;
+}
+
+.modo_oscuro .caracteristicas{
+    background-color: #ffee80;
+}
+
+.modo_oscuro .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto p{
+    color: #f9d806;
+}
+
+.modo_oscuro .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto h4{
+    color: #f9d806;
+}
+
+.modo_oscuro .caracteristicas .iconos{
+    background-color: #eee;
+}
+
+.modo_oscuro .caracteristicas .iconos i{
+    background: #fff;
+}
+
+.modo_oscuro .caracteristicas .iconos .texto-iconos h3{
+    color: #130f40;
+    font-size: 2.5rem;
+}
+
+.modo_oscuro .caracteristicas .iconos .texto-iconos p{
+    color: #130f40;
+    font-size: 1.1rem;
+}
+
+.modo_oscuro .caracteristicas .iconos:hover{
+    background: #130f40;
+}
+
+.modo_oscuro .caracteristicas .iconos:hover i{
+    background: #f9d806;
+}
+
+.modo_oscuro .caracteristicas .iconos:hover .texto-iconos h3{
+    color: #fff;
+}
+
+.modo_oscuro .caracteristicas .iconos:hover .texto-iconos p{
+    color: #eee;
+}

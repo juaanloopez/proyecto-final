@@ -15,7 +15,7 @@
             <div class="container-fluid">
                 <!-- inicio,ofertas,precios congelados y categorias a la derecha de la barra -->
                 <div class="logo-izquierda">
-                  <a class="navbar-brand imglogo" href="#"><img src="imagenes/imglogo" alt="" class="jorgelogo"></a>
+                  <a class="navbar-brand imglogo" href="index.html"><img src="imagenes/imglogo" alt="" class="jorgelogo"></a>
                 </div>
                 <div class="items-barranav">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,14 +51,17 @@
 
     <!-- carrusel -->
     <section class="carrusel">
+      <div class="modooscuro-izquierda">
+        <input type="button" value="modo " class="btn" id="botonDark">
+      </div>
       <!-- titiulo del carrusel -->
-      <h1 class="home-parallax">Encontra Tu Producto</h1>
+      <h1 class="titulocarrusel">Encontra Tu Producto</h1>
       <!-- img del carrusel -->
-      <img class="home-parallax" src="https://images.vexels.com/content/69741/preview/realistic-3d-shopping-cart-df451a.png" alt="">
+      <img src="https://images.vexels.com/content/69741/preview/realistic-3d-shopping-cart-df451a.png" alt="">
       <br>
       <br>
       <!-- boton explorar del carrusel -->
-      <a href="">
+      <a href="#categorias">
         <button type="button" class="btn home-parallax">Explorar</button>
       </a>
     </section>
@@ -115,10 +118,10 @@
     </section>
 
     <!-- seccion categorias -->
-    <section class="categorias">
+    <section class="categorias" id="categorias">
       <div class="container text-center">
         <!-- titulo -->
-        <h1>Categorías</h1>
+        <h1 id="titulocategoria">Categorías</h1>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 productos-categorias">
           <!-- seccion almacen -->
           <div class="col-sm-3 almacen">
@@ -170,14 +173,14 @@
     <!-- seccion ofertas del dia -->
     <section class="ofertasdeldia-preciosjusto" id="ofertas">
       <!-- titulo de la seccion ofertas del dia -->
-      <h1>Ofertas Del Día</h1>
+      <h1 id="tituloofertas">Ofertas Del Día</h1>
       <div class="contenedor-ofertasdeldia-preciosjusto">
         <!-- card de producto de cafe -->
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://sdbe.com.ar/wp-content/uploads/2021/11/instantaneo.png" alt="">
           <h3>NESCAFE</h3>
-          <p>Café instantáneo Suave Nescafé Dolca 170 Gr.</p>
-          <h4>$ 1.300 <span>$̶ ̶2̶.̶1̶7̶0̶</span></h4>
+          <p id="cafe">Café instantáneo Suave Nescafé Dolca 170 Gr.</p>
+          <h4 id="preciocafe">$ 1.300 <span>$̶ ̶2̶.̶1̶7̶0̶</span></h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -187,8 +190,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://http2.mlstatic.com/D_NQ_NP_642181-MLA69597605972_052023-O.webp" alt="" id="nesquikimg">
           <h3>NESQUIK</h3>
-          <p>Cacao en Polvo Chocolatada Nesquik 800 Gr.</p>
-          <h4>$ 1.200 <span>$̶ ̶1̶7̶0̶0̶</span></h4>
+          <p id="chocolatada">Cacao en Polvo Chocolatada Nesquik 800 Gr.</p>
+          <h4 id="chocolatadaprecio">$ 1.200 <span>$̶ ̶1̶7̶0̶0̶</span></h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -198,8 +201,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://img.alvearsupermercados.com.ar/Productos/Lacteos/Quesos-untables/finlandia-10633-1.png" alt="">
           <h3>LA SERENISIMA</h3>
-          <p>Queso Finlandia Light La Serenisima 180 Gr.</p>
-          <h4>$ 450 <span>$̶ ̶6̶0̶0̶</span></h4>
+          <p id="queso">Queso Finlandia Light La Serenisima 180 Gr.</p>
+          <h4 id="quesoprecio">$ 450 <span>$̶ ̶6̶0̶0̶</span></h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -209,8 +212,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://plataforma.supersimple.com.ar/Panelcontenidos/Contenidos/1684440038-0-0.png" alt="" id="milanesadesojaimg">
           <h3>GRANJA DEL SOL</h3>
-          <p>Milanesas de Soja con Espinaca Granja del Sol 330 Grs.</p>
-          <h4>$ 680 <span>$̶ ̶8̶5̶0̶</span></h4>
+          <p id="milanesa">Milanesas de Soja con Espinaca Granja del Sol 330 Grs.</p>
+          <h4 id="milanesaprecio">$ 680 <span>$̶ ̶8̶5̶0̶</span></h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -220,8 +223,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://www.tonadita.com/wp-content/uploads/2021/09/7798060852167-200g-v2.png" alt="" id="tonaditaimg">
           <h3>TONADITA</h3>
-          <p>Manteca Tonadita 200 Gr.</p>
-          <h4>$ 680 <span>$̶ ̶5̶0̶0̶</span></h4>
+          <p id="manteca">Manteca Tonadita 200 Gr.</p>
+          <h4 id="mantecaprecio">$ 680 <span>$̶ ̶5̶0̶0̶</span></h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -231,8 +234,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://almacenexpress.com.uy/wp-content/uploads/2022/10/a-2022-10-07T095423.275.png" alt="">
           <h3>CLIGHT</h3>
-          <p>Jugo en Polvo Clight Manzana 7 Gr.</p>
-          <h4>$ 62 <span>$̶ ̶8̶2̶</span></h4>
+          <p id="jugo">Jugo en Polvo Clight Manzana 7 Gr.</p>
+          <h4 id="jugoprecio">$ 62 <span>$̶ ̶8̶2̶</span></h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -243,14 +246,14 @@
     <!-- seccion precios justos -->
     <section class="ofertasdeldia-preciosjusto" id="preciosjustos">
       <!-- titulo de precios -->
-      <h1>Precios Justos</h1>
+      <h1 id="titulopreciosjustos">Precios Justos</h1>
       <div class="contenedor-ofertasdeldia-preciosjusto">
         <!-- card de aceite cañuelas -->
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://perobienargentino.com/cdn/shop/products/CanuelasAceiteGirasolx1_5L_600x.png?v=1609862872" alt="">
           <h3>CAÑUELAS</h3>
-          <p>Aceite Girasol Cañuelas x 1,5 Lt.</p>
-          <h4>$ 625</h4>
+          <p id="aceite">Aceite Girasol Cañuelas x 1,5 Lt.</p>
+          <h4 id="aceiteprecio">$ 625</h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -260,8 +263,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://d1on8qs0xdu5jz.cloudfront.net/webapp/images/fotos/b/0000000000/2755_1.jpg" alt="">
           <h3>CITRUS</h3>
-          <p>Agua Saborizada Citrus con Gas H2Oh x 2,25 Lt.</p>
-          <h4>$ 445</h4>
+          <p id="citrus">Agua Saborizada Citrus con Gas H2Oh x 2,25 Lt.</p>
+          <h4 id="citrusprecio">$ 445</h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -271,8 +274,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://masonlineprod.vtexassets.com/arquivos/ids/161704/Alfajor-Triple-Torta-Terrabusi-70-Gr-2-12675.jpg?v=637835132121570000" alt="">
           <h3>TERRABUSI</h3>
-          <p>Alfajor Torta Triple Terrabusi x 70 Gr.</p>
-          <h4>$ 105</h4>
+          <p id="alfajor">Alfajor Torta Triple Terrabusi x 70 Gr.</p>
+          <h4 id="alfajorprecio">$ 105</h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -282,8 +285,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://gidfood.com.ar/wp-content/uploads/1002001.jpg" alt="" id="arrozimg">
           <h3>MOLINOS ALA</h3>
-          <p>Arroz Largo Fino Molinos Ala x 1 Gg.</p>
-          <h4>$ 500</h4>
+          <p id="arroz">Arroz Largo Fino Molinos Ala x 1 Gg.</p>
+          <h4 id="arrozprecio">$ 500</h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -293,8 +296,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://distribuidorasabatini.com/app/files/company_23/products/175574_chango-azucar-pack-de-1kg.png" alt="" id="azucarimg">
           <h3>CHANGO</h3>
-          <p>Azúcar Común Tipo A Changuito x 500 Gr.</p>
-          <h4>$ 430</h4>
+          <p id="azucar">Azúcar Común Tipo A Changuito x 500 Gr.</p>
+          <h4 id="azucarprecio">$ 430</h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -304,8 +307,8 @@
         <div class="card-ofertasdeldia-preciosjusto">
           <img src="https://perobienargentino.com/cdn/shop/products/9deOroClasicosx200g-3pack_1280x.jpg?v=1608148371" alt="">
           <h3>9 DE ORO</h3>
-          <p>Bizcochos Clásicos 9 de Oro x 200 Gr.</p>
-          <h4>$ 210</h4>
+          <p id="galletitas">Bizcochos Clásicos 9 de Oro x 200 Gr.</p>
+          <h4 id="galletitasprecio">$ 210</h4>
           <a href="">
             <button type="button" class="btn">Comprar</button>
           </a>
@@ -401,18 +404,20 @@
             <h3 id="titulofooter">Copyright ©2023. designe by Jorge Team</h3>
             <h4 id="segundotitulo">Seguinos en Nuestras Redes Sociales:</h4>
             <ul class="redessociales">
-                <li><a href="https://www.instagram.com/leomessi/"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/></svg></a>
+                <li>
+                  <a href="">
+                    <img src="https://icons.getbootstrap.com/assets/icons/instagram.svg" alt="">
+                  </a>
                 </li>
-                <li><a href="https://twitter.com/OOCDavoo/status/1666480892758351876"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/></svg></a>
+                <li>
+                  <a href="">
+                    <img src="https://icons.getbootstrap.com/assets/icons/twitter.svg" alt="">
+                  </a>
                 </li>
-                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/></svg></a>
-                </li>
-                <li><a href="https://replit.com/@juan-pablop1537"><img src="imagenes/imgreplit.png" width="22" alt=""></a></li>
-                <li><a href="https://github.com/juaanloopez"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></a>
+                <li>
+                  <a href="">
+                    <img src="https://icons.getbootstrap.com/assets/icons/tiktok.svg" alt="">
+                  </a>
                 </li>
             </ul>
         </div>
@@ -424,6 +429,7 @@
       </footer>
     </section>
 
+    <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
