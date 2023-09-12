@@ -82,7 +82,51 @@
 
 .modooscuro-izquierda{
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 1rem;
+}
+
+.botonDiaNoche{
+    background: #343d5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.botonDiaNoche::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modonoche{
+    background: #f9d806;
+    color: #000;
+}
+
+.modonoche::after{
+    right: 0;
+    left: unset;
+}
+
+.botonDiaNoche svg{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
 }
 
 .carrusel h1{
@@ -364,7 +408,7 @@
 }
 
 #milanesadesojaimg{
-    width: 157px;
+    width: 160px;
 }
 
 #tonaditaimg{
