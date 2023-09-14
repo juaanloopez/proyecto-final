@@ -402,21 +402,28 @@
     transition: 0.5s;
 }
 
-#nesquikimg{
-    width: 160px;
-    margin-top: 2.5rem;
-}
-
 #milanesadesojaimg{
-    width: 160px;
+    width: 210px;
 }
 
-#tonaditaimg{
-    width: 290px;
+#mantecaimg{
+    width: 350px;
+    margin-top: 1.7rem;
 }
 
-#azucarimg{
-    width: 206px;
+#aceiteimg{
+    width: 210px;
+    margin-top: 3.1rem;
+}
+
+#alfajorimg{
+    width: 220px;
+    margin-top: 2.4rem;
+}
+
+#galletitasimg{
+    width: 250px;
+    margin-top: 0.7rem;
 }
 
 .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto h3{
