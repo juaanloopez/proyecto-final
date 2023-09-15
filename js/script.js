@@ -11,6 +11,8 @@ let valor=localStorage.getItem("botonDark")
 
 if (valor=="true") {
     body.classList.add("modo_oscuro")
+    botonDark.classList.add("modonoche")
 } else {
     body.classList.remove("modo_oscuro")
+    botonDark.classList.remove("modonoche")
 }
