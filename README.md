@@ -13,7 +13,7 @@
 
 ## Características Principales
 #### - El sitio web de "Lo de Jorgito" ofrece las siguientes características destacadas:
-###1. Catálogo de Productos
+### 1. Catálogo de Productos
 - Productos de Almacén: El sitio presenta una amplia variedad de productos de despensa, incluyendo alimentos enlatados, productos secos y más.
 - Bebidas: Ofrecemos una selección diversa de bebidas, que incluyen refrescos, aguas, jugos entre otras bebidas.
 - Productos Frescos: Los productos frescos, como frutas, verduras, carnes y lácteos, están disponibles y se actualizan regularmente.
