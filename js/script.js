@@ -1,15 +1,21 @@
+botonDesplegable = document.querySelector(".navbar-toggler")
+barra = document.querySelector(".barranav")
 botonDark = document.querySelector("#botonDark")
-let body = document.body
+body = document.body
 
-botonDark.addEventListener("click", () => {
+botonDesplegable.addEventListener("click", () =>{
+    barra.classList.toggle("botonresponsive")
+})
+
+botonDark.addEventListener("click", () =>{
     botonDark.classList.toggle("modonoche")
-    let val=body.classList.toggle("modo_oscuro")
+    val = body.classList.toggle("modo_oscuro")
     localStorage.setItem("botonDark",val)
 })
 
-let valor=localStorage.getItem("botonDark")
+valor = localStorage.getItem("botonDark")
 
-if (valor=="true") {
+if (valor == "true"){
     body.classList.add("modo_oscuro")
     botonDark.classList.add("modonoche")
 } else {

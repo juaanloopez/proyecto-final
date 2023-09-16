@@ -28,9 +28,28 @@
     /* padding-bottom: 1rem */
 }
 
+.botonresponsive{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    /* padding: 15px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    z-index: 1;
+    height: 14rem;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem */
+}
+
 .jorgelogo{
     width: 9rem;
     object-fit: cover;
+}
+
+.navbar-collapse{
+    margin-right: 125px;
 }
 
 .items-barranav{
@@ -39,22 +58,7 @@
 }
 
 .items-barranav a{
-    margin: 2rem;
-}
-
-@media (max-width:991px){
-    .barranav{
-        height: 14rem;
-    }
-
-    .items-barranav{
-        text-align: left;
-        margin: auto;
-    }    
-
-    .items-barranav a{
-        margin: 1px;
-    }
+    margin: 2px;
 }
 
 #inicio{
@@ -617,12 +621,40 @@ footer{
     color: #f9d806;
 }
 
+.modo_oscuro .navbar-toggler{
+    background-color: #f9d806;
+    color: #130f40;
+}
+
+.modo_oscuro .dropdown-menu{
+    background-color: #130f40;
+}
+
+.modo_oscuro .dropdown-menu a{
+    background-color: #130f40;
+}
+
+.modo_oscuro .dropdown-menu a:hover{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
 .modo_oscuro #inicio{
     color: #f9d806;
 }
 
 .modo_oscuro a{
     color: #f9d806;
+}
+
+.modo_oscuro a:hover{
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.modo_oscuro #inicio:hover{
+    color: #fff;
+    border-bottom: 3px solid #fff;
 }
 
 .modo_oscuro h1{
@@ -673,4 +705,4 @@ footer{
 
 .modo_oscuro .caracteristicas .iconos:hover .texto-iconos p{
     color: #eee;
-}
+} 
