@@ -678,6 +678,10 @@ footer{
     background-color: #ffee80;
 }
 
+.modo_oscuro .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto h3{
+    color: #f9d806;
+}
+
 .modo_oscuro .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto p{
     color: #f9d806;
 }
