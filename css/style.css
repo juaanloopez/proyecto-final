@@ -535,6 +535,19 @@ label{
     text-align: left;
 }
 
+.barradebusqueda{
+    margin-top: 9rem;
+}
+
+.barradebusqueda form{
+    width: 30%;
+}
+
+.d-flex{
+    text-align: center;
+    margin: auto;
+}
+
 footer{
     background: #ffee80;
     height: auto;
@@ -705,4 +718,4 @@ footer{
 
 .modo_oscuro .caracteristicas .iconos:hover .texto-iconos p{
     color: #eee;
-} 
+}
