@@ -649,6 +649,7 @@ footer{
 }
 
 .ubicaciones .row{
+    margin-top: 4rem;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
@@ -773,5 +774,21 @@ footer{
 }
 
 .modo_oscuro .barradebusqueda h4{
+    color: #f9d806;
+}
+
+.modo_oscuro .carrusel h3{
+    color: #f9d806;
+}
+
+.modo_oscuro .ubicaciones .row .ubicacion h2{
+    color: #f9d806;
+}
+
+.modo_oscuro .ubicaciones .row .ubicacion h4{
+    color: #f9d806;
+}
+
+.modo_oscuro .ubicaciones .row .ubicacion h5{
     color: #f9d806;
 }
