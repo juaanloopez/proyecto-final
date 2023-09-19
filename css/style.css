@@ -672,6 +672,18 @@ footer{
     color: #130f40;
 }
 
+@media(max-width:991px){
+    .ubicaciones .row .ubicacion{
+        padding: 4rem;
+    }
+}
+
+@media(max-width:780px){
+    .ubicaciones .row .ubicacion{
+        padding: 2.3rem;
+    }
+}
+
 .ubicaciones .row .ubicacion h1{
     font-weight: bold;
 }
