@@ -555,11 +555,16 @@ label{
     text-align: center;
     font-weight: bold;
     color: #130f40;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
+}
+
+.barradebusqueda h5{
+    text-align: center;
 }
 
 .barradebusqueda form{
     width: 35%;
+    padding-top: 1rem;
 }
 
 .d-flex{
@@ -786,6 +791,10 @@ footer{
 }
 
 .modo_oscuro .barradebusqueda h4{
+    color: #f9d806;
+}
+
+.modo_oscuro .barradebusqueda h5{
     color: #f9d806;
 }
 
