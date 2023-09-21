@@ -435,6 +435,24 @@
     margin-top: 0.7rem;
 }
 
+#precioyogurt{
+    margin-top: 3.1rem;
+}
+
+#precioqueso{
+    margin-top: 3.1rem;
+}
+
+#imgquesorallado{
+    margin-top: 4rem;
+}
+
+@media (max-width:1235px){
+    #precioleche{
+        margin-top: 3rem;
+    }
+}
+
 .ofertasdeldia-preciosjusto .contenedor-ofertasdeldia-preciosjusto .card-ofertasdeldia-preciosjusto h3{
     color: #130f40;
     font-size: 2.2rem;
