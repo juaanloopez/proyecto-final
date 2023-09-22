@@ -435,8 +435,16 @@
     margin-top: 0.7rem;
 }
 
+#imgleche{
+    width: 155px;
+}
+
+#imgyogurt{
+    width: 200px;
+}
+
 #precioyogurt{
-    margin-top: 3.1rem;
+    margin-top: 3.1rem; 
 }
 
 #precioqueso{
@@ -444,10 +452,11 @@
 }
 
 #imgquesorallado{
-    margin-top: 4rem;
+    width: 170px;
+    margin-top: 3rem;
 }
 
-@media (max-width:1235px){
+@media (max-width:1252px){
     #precioleche{
         margin-top: 3rem;
     }
@@ -707,6 +716,40 @@ footer{
     }
 }
 
+.productoindividual{
+    margin-top: 5rem;
+}
+
+.productoindividual img{
+    width: 300px;
+}
+
+.productoindividual img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.productoindividual .textoproducto{
+    margin-top: 5rem;
+    text-align: left;
+    color: #130f40;
+}
+
+.productoindividual .textoproducto h4{
+    font-weight: bold;
+}
+
+.productoindividual .textoproducto span{
+    color: #f9d806;
+}
+
+@media(max-width:484px){
+    .productoindividual img{
+        width: 100px;
+        margin-top: 7rem;
+    }
+}
+
 .ubicaciones .row .ubicacion h1{
     font-weight: bold;
 }
@@ -829,5 +872,9 @@ footer{
 }
 
 .modo_oscuro .ubicaciones .row .ubicacion h5{
+    color: #f9d806;
+}
+
+.modo_oscuro .productoindividual .textoproducto{
     color: #f9d806;
 }
