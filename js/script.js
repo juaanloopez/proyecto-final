@@ -23,13 +23,21 @@ if (valor == "true"){
     botonDark.classList.remove("modonoche")
 }
 
-document.addEventListener("keyup", (e) =>{
-    if(e.target.matches("#buscador")){
-        if(e.key == "escape")e.target.value = ""
-        document.querySelectorAll(".card-ofertasdeldia-preciosjusto").forEach(productos =>{
-            productos.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-            ?productos.classList.remove("d-none")
-            :productos.classList.add("d-none")
-        })
+document.addEventListener("keyup", (e) => {
+    if (e.target.matches("#buscador")) {
+        if (e.key == "escape") e.target.value = "";
+
+        // Normalizar y eliminar acentos de la cadena de búsqueda
+        const searchString = e.target.value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+        document.querySelectorAll(".card-ofertasdeldia-preciosjusto").forEach(productos => {
+            const productText = productos.textContent.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+            
+            if (productText.includes(searchString)) {
+                productos.classList.remove("d-none");
+            } else {
+                productos.classList.add("d-none");
+            }
+        });
     }
-})
+});
