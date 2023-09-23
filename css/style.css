@@ -743,6 +743,10 @@ footer{
     color: #f9d806;
 }
 
+#mantecaindicidual{
+    margin-top: 4rem;
+}
+
 @media(max-width:484px){
     .productoindividual img{
         width: 100px;
