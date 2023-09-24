@@ -747,6 +747,18 @@ footer{
     margin-top: 4rem;
 }
 
+#jugoindividual{
+    padding-top: 2.5rem;
+}
+
+#arrozindividual{
+    padding-top: 3rem;
+}
+
+#azucarindividual{
+    padding-top: 2rem;
+}
+
 @media(max-width:484px){
     .productoindividual img{
         width: 100px;
