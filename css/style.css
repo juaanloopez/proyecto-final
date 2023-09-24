@@ -377,6 +377,11 @@
     font-weight: bold;
 }
 
+.btn:hover{
+    background-color: #f9d806;
+    color: #130f40;
+}
+
 .ofertasdeldia-preciosjusto{
     margin-top: 8rem;
 }
@@ -743,12 +748,24 @@ footer{
     color: #f9d806;
 }
 
+#quesoindividual{
+    padding-top: 2.5rem;
+}
+
+#milanesaindividual{
+    width: 270px;
+}
+
 #mantecaindicidual{
-    margin-top: 4rem;
+    margin-top: 2.5rem;
 }
 
 #jugoindividual{
     padding-top: 2.5rem;
+}
+
+#h20hindividual{
+    margin-top: 6.5rem;
 }
 
 #arrozindividual{

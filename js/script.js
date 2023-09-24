@@ -3,18 +3,22 @@ barra = document.querySelector(".barranav")
 botonDark = document.querySelector("#botonDark")
 body = document.body
 
+// evento de boton de la barra de navegacion
 botonDesplegable.addEventListener("click", () =>{
     barra.classList.toggle("botonresponsive")
 })
 
+// evento boton modo noche y oscuro
 botonDark.addEventListener("click", () =>{
     botonDark.classList.toggle("modonoche")
     val = body.classList.toggle("modo_oscuro")
     localStorage.setItem("botonDark",val)
 })
 
+// variable del localstorage
 valor = localStorage.getItem("botonDark")
 
+// estructura para que se quede guardado el modo noche/claro seleccionado
 if (valor == "true"){
     body.classList.add("modo_oscuro")
     botonDark.classList.add("modonoche")
@@ -23,6 +27,7 @@ if (valor == "true"){
     botonDark.classList.remove("modonoche")
 }
 
+// evento de la barra de navegacion
 document.addEventListener("keyup", (e) => {
     if (e.target.matches("#buscador")) {
         if (e.key == "escape") e.target.value = "";
@@ -34,10 +39,10 @@ document.addEventListener("keyup", (e) => {
             const productText = productos.textContent.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
             
             if (productText.includes(searchString)) {
-                productos.classList.remove("d-none");
+                productos.classList.remove("d-none")
             } else {
-                productos.classList.add("d-none");
+                productos.classList.add("d-none")
             }
-        });
+        })
     }
-});
+})
