@@ -776,6 +776,14 @@ footer{
     padding-top: 2rem;
 }
 
+#imgleche2{
+    width: 230px;
+}
+
+#imgyogur{
+    width: 270px;
+}
+
 @media(max-width:484px){
     .productoindividual img{
         width: 100px;
