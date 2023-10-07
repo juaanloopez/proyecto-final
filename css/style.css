@@ -84,6 +84,10 @@
     overflow-x: hidden;
 }
 
+.titulocarrusel{
+    text-align: center;
+}
+
 .modooscuro-izquierda{
     text-align: left;
     margin-left: 1rem;
@@ -459,6 +463,23 @@
 #imgquesorallado{
     width: 170px;
     margin-top: 3rem;
+}
+
+#azucarchanguito{
+    width: 280px;
+    margin-top: 3.2rem;
+}
+
+#lavirginia{
+    width: 190px;
+}
+
+#arrozgallo{
+    width: 185px;
+}
+
+#azucarindividual{
+    margin-top: 1rem;
 }
 
 @media (max-width:1252px){
